@@ -1,0 +1,77 @@
+.center{
+    width: 1200px;
+    margin: auto;
+}
+.art-cont {
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    float: top;
+    position: relative;
+    top: -100px;
+}
+.click{
+    color: rgb(79, 154, 189);
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 13px;
+}
+h1::after {
+    content: "TOP";
+    background-color: yellow;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    padding: 1px 3px;
+}
+h3::after {
+    content: "HOT";
+    background-color: yellow;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    padding: 1px 2px;
+}
+h6{
+    list-style-type: none;
+    float: left;
+    position: relative;
+    top: -1125px;
+    left: 100px;
+}
+aside {
+    border-top: solid rgb(79, 154, 189);
+    border-bottom: solid rgb(79, 154, 189);
+    background-color: rgb(247, 247, 248);
+    float: left;
+    position: relative;
+    top: -1420px;
+    left: 340px;
+}
+.t {
+    color: rgb(79, 154, 189);
+}
+a{
+text-decoration: none;
+}
+.code{
+    padding: 13px;
+    background: black;
+    color: white;
+    border-radius: 8px;
+}
+.nodot {
+    list-style-type: none;
+}
+.nodot1{
+    background-color: #f7f7f7;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #AB300B;
+    list-style-type: none;
+    padding: 15px 20px;
+    float: left;
+    width: 280px;
+}
+a:hover, a:active {
+color: red;
+}
